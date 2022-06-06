@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import Buttons from "../components/Buttons";
 
 const home = () => {
   return (
@@ -15,11 +14,6 @@ const home = () => {
           consequatur culpa aliquid, assumenda hic? Saepe?
         </p>
       </div>
-      <Link href="/contacts">
-        <div className="left-button">
-          <span>&#10092;</span>
-        </div>
-      </Link>
       <Link href="/aboutMe">
         <div className="right-button">
           <span>&#10093;</span>

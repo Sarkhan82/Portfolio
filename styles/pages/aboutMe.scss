@@ -1,0 +1,108 @@
+.aboutme-container {
+    min-height: 100vh;
+    @include center;
+}
+.aboutme {
+        display: grid;
+        min-height: 750px;
+        max-width: 80%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "text languages"
+          "text soft-skill";
+        border: 3px solid black;
+      }
+      
+      .text { grid-area: text;
+        border-right: 3px solid black;
+        background: wheat;
+    @include center;
+    p {
+        width: 70%;
+        line-height: 50px;
+        word-spacing: 5px;
+        font-size: 1.6rem;
+    }
+    }
+      
+      .languages { 
+        grid-area: languages;
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 0.4fr 1.6fr;
+        grid-template-areas: 
+          "titre"
+          "language"; 
+        border-bottom: 3px solid black;
+        .title-l {
+            grid-area: titre;
+            @include center;
+            background: wheat;
+            border-bottom: 3px solid black;
+            h2 { font-size: 2rem;
+                text-transform: uppercase;
+            }
+        }
+        .list-l {
+            @include center; 
+            ul {
+                grid-area: language;
+                display: flex;
+            }
+            li {
+                @include center;
+                flex-direction: row;
+                font-family: $font2;
+                text-transform: uppercase;
+                font-size: 1.2rem;
+                background-color: rgba(126, 194, 81, 0.919);
+                border: 3px solid black;
+                color: $black1;
+                border-radius: 1000px;
+                margin-left: 15px;
+                height: 50px;
+                width: 150px;
+            }
+        }
+        }
+      .soft-skill { 
+        grid-area: soft-skill;
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 0.4fr 1.6fr;
+        grid-template-areas: 
+          "titr"
+          "skill"; 
+        .title-s {
+            grid-area: titr;
+            @include center;
+            background: wheat;
+            border-bottom: 3px solid black;
+
+            h2 { font-size: 2rem;
+                text-transform: uppercase
+
+            }
+        }
+        .list-s {
+            @include center;
+            ul {
+                grid-area: skill;
+                display: flex;
+            }
+            li {
+                @include center;
+                font-family: $font2;
+                background-color: $black1;
+                color: $white1;
+                border-radius: 500px;
+                margin-left: 15px;
+                height: 40px;
+                width: 150px;
+            }
+        }
+        }
+        

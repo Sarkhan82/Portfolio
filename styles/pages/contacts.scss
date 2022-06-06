@@ -1,0 +1,49 @@
+.contacts-container {
+    min-height: 100vh;
+
+    .contacts {
+        min-height: 100vh;
+        @include center;
+        .contact-card {
+            height: 400px;
+            width: 30%;
+            border: 3px solid black;
+            background-color: wheat;
+            border-radius: 15px;
+            display: grid; 
+            grid-template-columns: 0.5fr 1.5fr; 
+            grid-template-rows: 0.3fr 2.1fr 0.6fr;
+            grid-template-areas: 
+              "header header"
+              "logo txt"
+              "footer footer"; 
+          .header { 
+            grid-area: header;
+            @include center
+            }
+          .logo { 
+        grid-area: logo; 
+        @include center;
+        flex-direction: column;
+        h3 {
+            font-size: 1rem;
+            text-align: left;
+        }
+    }
+          .text { 
+        grid-area: txt; 
+        @include center;
+        flex-direction: column;
+        p {
+            font-size: 1rem;
+            text-align: left;
+        }
+    }
+          .footer { 
+        grid-area: footer; 
+        @include center;
+    }
+         }
+    }
+
+}
