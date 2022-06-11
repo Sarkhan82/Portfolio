@@ -8,7 +8,7 @@
         align-items: center;
         width: 50%;
         height: 40px;
-        background: $black1;
+        background: $purple;
         border-radius: 200px;
         margin-top: 10px;
         cursor: pointer;
@@ -17,9 +17,10 @@
             font-family: $font2;
             font-size: 1.5rem;
             a{
-                color: $white1;
+                color: $white;
                 &:hover {
-                    color: aqua;
+                    color: $pink;
+                    font-size: 1.6rem;
                 }
             }
 

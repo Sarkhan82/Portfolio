@@ -10,15 +10,16 @@ const contacts = () => {
             <h2>Me contactez</h2>
           </div>
           <div className="logo">
-            <h3>Téléphone : </h3>
-            <h3>E-mail : </h3>
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-solid fa-envelope"></i>
           </div>
-          <div className="text">
-            <p>0606060606</p>
-            <p>dede@gmail.com</p>
+          <div className="text-contact">
+            <p>0761496272</p>
+            <p>david.jonquieres@gmail.com</p>
           </div>
           <div className="footer">
-            <button> MON CV </button>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
           </div>
         </div>
       </div>

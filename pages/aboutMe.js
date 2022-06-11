@@ -23,6 +23,8 @@ const aboutMe = () => {
               <li>React</li>
               <li>Next JS</li>
               <li>Typescript</li>
+              <li>PHP</li>
+              <li>NodeJS</li>
             </ul>
           </div>
         </div>
