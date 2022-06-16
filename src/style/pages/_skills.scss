@@ -1,0 +1,80 @@
+
+.skills-container {
+    height: 100vh;
+    width: 100vw;
+    .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25%;
+        p {
+            width: 60%;
+            font-size: 1.4rem;
+            font-family: $font-2;
+            color: $color-2;
+        }
+        @media screen and (max-width: 1200px){
+            justify-content: flex-end;
+            p {
+                font-size: 1.2rem;
+            }
+            
+        }
+    }
+    
+    .skills {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex: 1 0 25%;
+    height: 100%;
+    width: 100%;
+}
+
+.languages {
+    flex: 1 0 25%;
+    min-width: 260px;
+    max-width: 280px;
+    height: 620px;
+    background: $color-3;
+    border-radius: 35px;
+    margin: 5px;
+    padding: 26px 15px 30px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.soft-skills {
+    flex: 1 0 25%;
+    min-width: 260px;
+    max-width: 280px;
+    height: 620px;
+    background: $color-3;
+    border-radius: 35px;
+    margin: 5px;
+    padding: 26px 15px 30px;
+    position: relative;
+    overflow: hidden;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+li {
+    font-size: 1.4rem;
+    color: $color-4;
+    padding-bottom: 20px;
+}
+}
+.tools {
+    flex: 1 0 25%;
+    min-width: 260px;
+    max-width: 280px;
+    height: 620px;
+    background: $color-3;
+    border-radius: 35px;
+    margin: 5px;
+    padding: 26px 15px 30px;
+    position: relative;
+    overflow: hidden;
+}
