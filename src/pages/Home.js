@@ -58,7 +58,7 @@ const Home = () => {
                 bottom: 250,
               }}
             >
-              Développeur en Alternance
+              Développeur en alternance
             </motion.h2>
           </div>
         </div>

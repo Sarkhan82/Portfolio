@@ -24,14 +24,20 @@ const Navigation = () => {
               to="/projet-1"
               className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
             >
-              <li>En cours</li>
+              <li>Crypto Tracker</li>
             </NavLink>
 
             <NavLink
               to="/projet-2"
               className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
             >
-              <li>Crypto Tracker</li>
+              <li>What movie tonight ?</li>
+            </NavLink>
+            <NavLink
+              to="/projet-3"
+              className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
+            >
+              <li>Social Redux</li>
             </NavLink>
           </ul>
         </li>

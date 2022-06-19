@@ -31,9 +31,13 @@ const Contact = () => {
       >
         <Navigation />
         <div className="pic-container">
-          <img src="./assets/img/photo.jpg" alt="photo-David" />
-          <a href="http://" target="_blank" rel="noopener noreferrer">
-            Obtenir mon CV
+          <img src="./assets/img/photo.jpg" alt="Moi" />
+          <a
+            href="https://drive.google.com/file/d/16DlnmoPYeSBdZeZ65JvOe_8w6AOJMnma/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Obtenir mon C.V.
           </a>
         </div>
         <div className="contact-infos">

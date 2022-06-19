@@ -7,6 +7,34 @@
         justify-content: center;
         align-items: center;
         height: 25%;
+        &:after {
+            content: "";
+            height: 700px;
+            width: 700px;
+            background: $color-3;
+            border-radius: 100%;
+            position: absolute;
+            top: -700px;
+            right: 650px;
+            z-index: -10;
+            animation: contactAnim 50s alternate infinite;
+            @media screen and (max-width: 1700px){
+                top: -700px;
+                right: 500px;
+            }
+            @media screen and (max-width: 1600px){
+                top: -700px;
+                right: 400px;
+            }
+            @media screen and (max-width: 1400px){
+                top: -700px;
+                right: 200px;
+            }
+            @media screen and (max-width: 1200px){
+                top: -650px;
+                right: -350px;
+            }
+        }
         p {
             width: 60%;
             font-size: 1.4rem;
@@ -27,54 +55,84 @@
         align-items: flex-start;
         justify-content: center;
         flex: 1 0 25%;
-    height: 100%;
+    height: 700px;
     width: 100%;
+    flex-wrap: wrap;
+}
+.formation {
+    flex: 1 0 25%;
+    min-width: 260px;
+    max-width: 280px;
+    height: 500px;
+    background: $color-3;
+    border-radius: 35px;
+    margin: 5px;
+    padding: 26px 15px 30px;
+    position: relative;
+    overflow: hidden;
+    @media screen and (max-width: 1200px) {
+        height: 330px;
+}
 }
 
 .languages {
     flex: 1 0 25%;
     min-width: 260px;
     max-width: 280px;
-    height: 620px;
+    height: 500px;
     background: $color-3;
     border-radius: 35px;
     margin: 5px;
     padding: 26px 15px 30px;
     position: relative;
     overflow: hidden;
-    
+    @media screen and (max-width: 1200px) {
+        height: 330px;
+    }
 }
 .soft-skills {
     flex: 1 0 25%;
     min-width: 260px;
     max-width: 280px;
-    height: 620px;
+    height: 500px;
     background: $color-3;
     border-radius: 35px;
     margin: 5px;
     padding: 26px 15px 30px;
     position: relative;
     overflow: hidden;
+    @media screen and (max-width: 1200px) {
+        height: 330px;
+}
 }
 h2 {
     text-transform: uppercase;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
+    @media screen and (max-width: 1200px) {
+        font-size: 0.9rem;
+}
 }
 li {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     color: $color-4;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    @media screen and (max-width: 1200px) {
+        font-size: 0.8rem;
+}
 }
 }
 .tools {
     flex: 1 0 25%;
     min-width: 260px;
     max-width: 280px;
-    height: 620px;
+    height: 500px;
     background: $color-3;
     border-radius: 35px;
     margin: 5px;
     padding: 26px 15px 30px;
     position: relative;
     overflow: hidden;
+    @media screen and (max-width: 1200px) {
+        height: 330px;
+}
 }

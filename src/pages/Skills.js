@@ -17,25 +17,38 @@ const Skills = () => {
           </p>
         </div>
         <div className="skills">
+          <div className="formation">
+            <h2>Futur apprentissage durant la formation O'clock</h2>
+            <ul>
+              <li>UML</li>
+              <li>Java</li>
+              <li>Node.js</li>
+              <li>PHP</li>
+              <li>Laravel</li>
+              <li>AMQP</li>
+              <li>DevOps</li>
+              <li>CloudComputing</li>
+              <li>Serverless</li>
+            </ul>
+          </div>
           <div className="languages">
-            <h2>Programation</h2>
+            <h2>Langages connus</h2>
             <ul>
               <li>React</li>
               <li>Javascript</li>
               <li>Redux</li>
               <li>NextJS</li>
               <li>TypeScript</li>
-              <li>Node JS (en cours d'apprentissage)</li>
             </ul>
           </div>
           <div className="soft-skills">
-            <h2>Soft Skills</h2>
+            <h2>Atouts</h2>
             <ul>
               <li>Travail d'équipe</li>
               <li>Communication</li>
-              <li>Facilité d'adaptation</li>
+              <li>Flexibilité</li>
               <li>Curieux</li>
-              <li>Patient</li>
+              <li>Persévérance</li>
               <li>Conscience professionnelle</li>
             </ul>
           </div>

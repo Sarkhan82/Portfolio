@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import Project1 from "./pages/Project1";
 import Project2 from "./pages/Project2";
+import Project3 from "./pages/Project3";
 import Skills from "./pages/Skills";
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/skills" element={<Skills />} />
           <Route path="/projet-1" element={<Project1 />} />
           <Route path="/projet-2" element={<Project2 />} />
+          <Route path="/projet-3" element={<Project3 />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/*" element={<NotFound />} />
         </Routes>
