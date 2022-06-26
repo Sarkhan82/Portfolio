@@ -48,6 +48,9 @@ justify-content: center;
 flex-direction: column;
 min-width: 100%;
 min-height: 100%;
+@media screen and (max-width: 1400px) {
+ min-height: 80%;
+}
 
   img {
     height: 480px;
@@ -56,6 +59,10 @@ min-height: 100%;
     @media screen and (max-width: 1400px) {
       height: 380px;
       width: 280px;
+    }
+    @media screen and (max-width: 1400px) {
+      height: 350px;
+      width: 250px;
     }
   }
   a {

@@ -34,6 +34,9 @@
                 top: -650px;
                 right: -350px;
             }
+            @media screen and (max-width: 600px){
+                display: none;
+              }
         }
         p {
             width: 60%;
@@ -45,6 +48,18 @@
             justify-content: flex-end;
             p {
                 font-size: 1.2rem;
+            }
+        }
+        @media screen and (max-width: 800px){
+            p {
+                font-size: 1rem;
+            }
+        }
+        @media screen and (max-width: 450px){
+            justify-content: center;
+            p {
+                font-size: 0.8rem;
+                width: 80%;
             }
             
         }
@@ -73,6 +88,9 @@
     @media screen and (max-width: 1200px) {
         height: 330px;
 }
+@media screen and (max-width: 500px) {
+    height: 310px;
+}
 }
 
 .languages {
@@ -89,6 +107,9 @@
     @media screen and (max-width: 1200px) {
         height: 330px;
     }
+    @media screen and (max-width: 500px) {
+        height: 250px;
+    }
 }
 .soft-skills {
     flex: 1 0 25%;
@@ -104,6 +125,9 @@
     @media screen and (max-width: 1200px) {
         height: 330px;
 }
+@media screen and (max-width: 500px) {
+    height: 250px;
+}
 }
 h2 {
     text-transform: uppercase;
@@ -111,13 +135,19 @@ h2 {
     @media screen and (max-width: 1200px) {
         font-size: 0.9rem;
 }
+@media screen and (max-width: 500px) {
+    font-size: 0.8rem;
+}
 }
 li {
     font-size: 1.1rem;
     color: $color-4;
     padding-bottom: 10px;
     @media screen and (max-width: 1200px) {
-        font-size: 0.8rem;
+        font-size: 0.8rem    
+}  
+ @media screen and (max-width: 500px) {
+    font-size: 0.7rem;
 }
 }
 }
@@ -134,5 +164,8 @@ li {
     overflow: hidden;
     @media screen and (max-width: 1200px) {
         height: 330px;
+}
+@media screen and (max-width: 500px) {
+    height: 250px;
 }
 }

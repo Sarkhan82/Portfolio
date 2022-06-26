@@ -82,7 +82,7 @@ const Contact = () => {
             <p>Davd JONQUIERES - 2022</p>
           </div>
         </div>
-        <Buttons left={"/projet-2"} />
+        <Buttons left={"/projet-3"} />
       </motion.div>
     </main>
   );
