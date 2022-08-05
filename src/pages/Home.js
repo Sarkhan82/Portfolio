@@ -58,8 +58,19 @@ const Home = () => {
                 bottom: 250,
               }}
             >
-              Développeur en alternance
+              Développeur front-end
             </motion.h2>
+            <p>
+              📢 Recherche contrat d'apprentissage | Eligible à la prime de
+              8000€
+            </p>
+            <p>
+              👨‍💻 Rythme 2semaine en entreprise / 1 semaine en formation durant
+              16 mois
+            </p>
+            <p>📄 Titre RNCP niveau 6 (bac+3)</p>
+            <p>💼 Disponnible immédiatement</p>
+            <p>🚗 15 minutes autour de Toulouse</p>
           </div>
         </div>
         <Buttons right={"/skills"} />

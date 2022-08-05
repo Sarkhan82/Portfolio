@@ -53,16 +53,14 @@ min-height: 100%;
 }
 
   img {
-    height: 480px;
-    width: 380px;
-    border-radius: 50px;
-    @media screen and (max-width: 1400px) {
-      height: 380px;
-      width: 280px;
+    height: 450px;
+    @media screen and (max-width: 1200px) {
+      height: 400px;
+      width: 400px;
     }
-    @media screen and (max-width: 1400px) {
-      height: 350px;
-      width: 250px;
+    @media screen and (max-width: 800px) {
+      height: 300px;
+      width: 300px;
     }
   }
   a {

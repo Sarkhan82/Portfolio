@@ -90,7 +90,7 @@ const Project = ({ projectNumber }) => {
             href={currentProject.link}
             target="_blank"
             rel="noopener noreferrer"
-            class="hover"
+            className="hover"
           >
             <span className="button">Voir le site</span>
           </a>

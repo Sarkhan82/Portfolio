@@ -31,9 +31,9 @@ const Contact = () => {
       >
         <Navigation />
         <div className="pic-container">
-          <img src="./assets/img/photo.jpg" alt="Moi" />
+          <img src="./assets/img/photo.png" alt="Moi" />
           <a
-            href="https://drive.google.com/file/d/16DlnmoPYeSBdZeZ65JvOe_8w6AOJMnma/view?usp=sharing"
+            href="https://drive.google.com/file/d/1iurixXFMlz03W_TTWWJd3sZqzS5Gm0JR/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >

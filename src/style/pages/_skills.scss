@@ -2,11 +2,11 @@
 .skills-container {
     height: 100vh;
     width: 100vw;
-    .text {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 25%;
+    display: flex;
+    justify-content: center;
+    flex: 1 0 25%;
+    align-items: center;
+    
         &:after {
             content: "";
             height: 700px;
@@ -37,48 +37,24 @@
             @media screen and (max-width: 600px){
                 display: none;
               }
-        }
-        p {
-            width: 60%;
-            font-size: 1.4rem;
-            font-family: $font-2;
-            color: $color-2;
-        }
-        @media screen and (max-width: 1200px){
-            justify-content: flex-end;
-            p {
-                font-size: 1.2rem;
-            }
-        }
-        @media screen and (max-width: 800px){
-            p {
-                font-size: 1rem;
-            }
-        }
-        @media screen and (max-width: 450px){
-            justify-content: center;
-            p {
-                font-size: 0.8rem;
-                width: 80%;
-            }
-            
-        }
     }
     
     .skills {
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         justify-content: center;
         flex: 1 0 25%;
-    height: 700px;
     width: 100%;
     flex-wrap: wrap;
+    @media screen and (max-width: 1200px) {
+        width: 60%;
+    }
 }
 .formation {
     flex: 1 0 25%;
     min-width: 260px;
     max-width: 280px;
-    height: 500px;
+    height: 600px;
     background: $color-3;
     border-radius: 35px;
     margin: 5px;
@@ -86,10 +62,10 @@
     position: relative;
     overflow: hidden;
     @media screen and (max-width: 1200px) {
-        height: 330px;
+        height: 400px;
 }
 @media screen and (max-width: 500px) {
-    height: 310px;
+    height: 400px;
 }
 }
 
@@ -97,7 +73,7 @@
     flex: 1 0 25%;
     min-width: 260px;
     max-width: 280px;
-    height: 500px;
+    height: 600px;
     background: $color-3;
     border-radius: 35px;
     margin: 5px;
@@ -105,17 +81,17 @@
     position: relative;
     overflow: hidden;
     @media screen and (max-width: 1200px) {
-        height: 330px;
+        height: 400px;
     }
     @media screen and (max-width: 500px) {
-        height: 250px;
+        height: 400px;
     }
 }
 .soft-skills {
     flex: 1 0 25%;
     min-width: 260px;
     max-width: 280px;
-    height: 500px;
+    height: 600px;
     background: $color-3;
     border-radius: 35px;
     margin: 5px;
@@ -123,15 +99,16 @@
     position: relative;
     overflow: hidden;
     @media screen and (max-width: 1200px) {
-        height: 330px;
+        height: 400px;
 }
 @media screen and (max-width: 500px) {
-    height: 250px;
+    height: 400px;
 }
 }
 h2 {
     text-transform: uppercase;
     font-size: 1.2rem;
+    text-align: center;
     @media screen and (max-width: 1200px) {
         font-size: 0.9rem;
 }
@@ -155,7 +132,7 @@ li {
     flex: 1 0 25%;
     min-width: 260px;
     max-width: 280px;
-    height: 500px;
+    height: 600px;
     background: $color-3;
     border-radius: 35px;
     margin: 5px;
@@ -163,9 +140,9 @@ li {
     position: relative;
     overflow: hidden;
     @media screen and (max-width: 1200px) {
-        height: 330px;
+        height: 400px;
 }
 @media screen and (max-width: 500px) {
-    height: 250px;
+    height: 400px;
 }
 }

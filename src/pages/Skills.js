@@ -9,57 +9,62 @@ const Skills = () => {
       <Mouse />
       <Navigation />
       <div className="skills-container">
-        <div className="text">
-          <p>
-            Je suis actuellement à la recherche d'une alternance dans le cadre
-            de ma formation O'clock s'effectuant sur un rythme de 1 semaine en
-            formation et 2 semaines en entreprise durant 16 mois.
-          </p>
-        </div>
         <div className="skills">
           <div className="formation">
-            <h2>Futur apprentissage durant la formation O'clock</h2>
+            <h2>Notions enseignées durant mon futur apprentissage</h2>
             <ul>
-              <li>UML</li>
-              <li>Java</li>
-              <li>Node.js</li>
-              <li>PHP</li>
-              <li>Laravel</li>
-              <li>AMQP</li>
-              <li>DevOps</li>
-              <li>CloudComputing</li>
-              <li>Serverless</li>
+              <li>✔ PHP & Laravel</li>
+              <li>✔ Javascript & Vue.js</li>
+              <li>✔ Node.js & Express</li>
+              <li>✔ Flutter</li>
+              <li>✔ NoSQL</li>
+              <li>✔ Docker</li>
+              <li>✔ UML</li>
+              <li>✔ CloudComputing</li>
+              <li>✔ API (REST, GraphQL, Websockets)</li>
+              <li>✔ Gestion de projet (cycle en V, méthodes agiles, Scrum)</li>
             </ul>
           </div>
           <div className="languages">
-            <h2>Langages connus</h2>
+            <h2>Technologies web maitrisées</h2>
             <ul>
-              <li>React</li>
-              <li>Javascript</li>
-              <li>Redux</li>
-              <li>NextJS</li>
-              <li>TypeScript</li>
+              <li>✔ React</li>
+              <li>✔ Javascript</li>
+              <li>✔ Redux</li>
+              <li>✔ NextJS</li>
+              <li>✔ TypeScript</li>
+              <li>✔ CSS/SASS</li>
+              <li>✔ HTML</li>
+              <li>✔ Git</li>
+              <li>✔ Firebase</li>
+              <li>✔ Linux</li>
             </ul>
           </div>
           <div className="soft-skills">
-            <h2>Atouts</h2>
+            <h2>Savoir-être</h2>
             <ul>
-              <li>Travail d'équipe</li>
-              <li>Communication</li>
-              <li>Flexibilité</li>
-              <li>Curieux</li>
-              <li>Persévérance</li>
-              <li>Conscience professionnelle</li>
+              <li>✔ Travail d'équipe</li>
+              <li>✔ Communication</li>
+              <li>✔ Rigueur</li>
+              <li>✔ Curiosité</li>
+              <li>✔ Persévérance</li>
+              <li>✔ Autonomie</li>
             </ul>
           </div>
           <div className="tools">
-            <h2>Outils</h2>
+            <h2>Savoir-faire</h2>
             <ul>
-              <li>Visual studio code</li>
-              <li>Git</li>
-              <li>Firebase</li>
-              <li>Linux</li>
-              <li>Suite Office</li>
+              <li>✔ Développer de nouvelles fonctionnalités</li>
+              <li>✔ Réaliser des tests</li>
+              <li>✔ Analyse et correction de bugs</li>
+              <li>
+                ✔ Assurer le deploiement et le maintien en condition
+                opérationnelle
+              </li>
+              <li>✔ Capacité à proposer et à mettre en oeuvre</li>
+              <li>
+                ✔ Ecouter, analyser et qualifier les problématiques des clients.
+              </li>
             </ul>
           </div>
         </div>
