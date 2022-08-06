@@ -65,11 +65,11 @@ const Home = () => {
               8000€
             </p>
             <p>
-              👨‍💻 Rythme 2semaine en entreprise / 1 semaine en formation durant
+              👨‍💻 Rythme 2 semaines en entreprise / 1 semaine en formation durant
               16 mois
             </p>
             <p>📄 Titre RNCP niveau 6 (bac+3)</p>
-            <p>💼 Disponnible immédiatement</p>
+            <p>💼 Disponible immédiatement</p>
             <p>🚗 15 minutes autour de Toulouse</p>
           </div>
         </div>

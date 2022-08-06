@@ -33,7 +33,7 @@ const Contact = () => {
         <div className="pic-container">
           <img src="./assets/img/photo.png" alt="Moi" />
           <a
-            href="https://drive.google.com/file/d/1iurixXFMlz03W_TTWWJd3sZqzS5Gm0JR/view?usp=sharing"
+            href="https://drive.google.com/file/d/1kkgKEIwvmZeZV9tCqabIOGHw1sSMepmC/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >

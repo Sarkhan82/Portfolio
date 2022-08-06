@@ -28,7 +28,7 @@ const SocialNetwork = () => {
           <li className="fa-brands fa-github"></li>
         </a>
         <a
-          href="https://www.linkedin.com/in/david-jonquieres-756666241/"
+          href="https://www.linkedin.com/in/david-jonquieres-alternant-d%C3%A9veloppeur-toulouse/"
           target="=_blank"
           rel="noopener noreferrer"
           className="hover"
