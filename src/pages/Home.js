@@ -58,7 +58,7 @@ const Home = () => {
                 bottom: 250,
               }}
             >
-              Développeur front-end
+              Développeur Fullstack junior
             </motion.h2>
             <p>
               📢 Recherche contrat d'apprentissage | Eligible à la prime de
@@ -70,7 +70,7 @@ const Home = () => {
             </p>
             <p>📄 Titre RNCP niveau 6 (bac+3)</p>
             <p>💼 Disponible immédiatement</p>
-            <p>🚗 15 minutes autour de Toulouse</p>
+            <p>🚗 20 minutes autour de Toulouse</p>
           </div>
         </div>
         <Buttons right={"/skills"} />

@@ -33,6 +33,7 @@ const Skills = () => {
               <li>✔ Redux</li>
               <li>✔ NextJS</li>
               <li>✔ TypeScript</li>
+              <li>✔ PHP</li>
               <li>✔ CSS/SASS</li>
               <li>✔ HTML</li>
               <li>✔ Git</li>
